@@ -6,7 +6,7 @@ void main() async {
   runApp(MaterialApp(
     initialRoute: '/',
     routes: {
-
+                                                          //мямямя
 
 
       '/settings': (context) => const settings_screen()
