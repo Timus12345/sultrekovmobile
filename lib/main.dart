@@ -7,7 +7,7 @@ void main() async {
   runApp(MaterialApp(
     initialRoute: '/',
     routes: {
-      '/': (context) => const login_screen()
+      '/': (context) => const login_screen() //пимпмии
 
     },
   ));
