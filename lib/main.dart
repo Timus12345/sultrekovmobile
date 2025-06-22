@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stroitel/password_screen/password_screen.dart';
 
 
 void main() async {
@@ -6,7 +7,7 @@ void main() async {
     initialRoute: '/',
     routes: {
 
-
+      '/pass': (context) => const password_screen()
     },
   ));
 }
