@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stroitel/settings_screen/settings_screen.dart';
 
 
 void main() async {
@@ -7,6 +8,8 @@ void main() async {
     routes: {
 
 
+
+      '/settings': (context) => const settings_screen()
     },
   ));
 }
